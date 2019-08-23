@@ -5,7 +5,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark"
+    >
 
     <TextView
         android:text="Total Bill"
@@ -17,7 +19,9 @@
         android:layout_marginTop="70dp"
         android:layout_marginEnd="45dp"
         android:gravity=""
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:textColor="@color/colorText"
+        />
 
 
     <TextView
@@ -29,7 +33,9 @@
         android:layout_marginTop="70dp"
         android:layout_marginEnd="160dp"
         android:gravity=""
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:textColor="@color/colorText"
+        />
 
 
     <EditText
@@ -42,7 +48,9 @@
         android:layout_marginTop="70dp"
         android:layout_marginEnd="30dp"
         android:gravity="center"
-        android:textSize="22sp" />
+        android:textSize="22sp"
+        android:textColor="@color/colorText"
+        />
 
     <TextView
         android:text="Percent Tip"
@@ -53,7 +61,9 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="160dp"
         android:gravity="center"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:textColor="@color/colorText"
+        />
 
     <EditText
         android:id="@+id/percentTip"
@@ -65,7 +75,9 @@
         android:layout_marginTop="160dp"
         android:layout_marginEnd="55dp"
         android:gravity="center"
-        android:textSize="22sp" />
+        android:textSize="22sp"
+        android:textColor="@color/colorText"
+        />
 
     <TextView
         android:text="%"
@@ -76,7 +88,9 @@
         android:layout_marginTop="160dp"
         android:layout_marginEnd="30dp"
         android:gravity="center"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:textColor="@color/colorText"
+        />
 
     <Button
         android:layout_width="343dp"
@@ -90,7 +104,9 @@
         android:gravity="center"
         android:onClick="calcTip"
         android:text="Calculate Tip"
-        android:textSize="28sp" />
+        android:textSize="28sp"
+        android:textColor="@color/colorText"
+        android:background="@color/colorPrimary"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -101,7 +117,9 @@
         android:layout_marginTop="362dp"
         android:gravity=""
         android:text="Total Tip"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:textColor="@color/colorText"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -112,7 +130,9 @@
         android:layout_marginEnd="160dp"
         android:gravity=""
         android:text="$"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:textColor="@color/colorText"
+        />
 
     <EditText
         android:id="@+id/totalTip"
@@ -124,7 +144,9 @@
         android:layout_marginEnd="30dp"
         android:gravity="center"
         android:text=""
-        android:textSize="22sp" />
+        android:textSize="22sp"
+        android:textColor="@color/colorText"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -135,7 +157,9 @@
         android:layout_marginTop="457dp"
         android:gravity=""
         android:text="Tipped Bill"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:textColor="@color/colorText"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -146,7 +170,9 @@
         android:layout_marginEnd="160dp"
         android:gravity=""
         android:text="$"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:textColor="@color/colorText"
+        />
 
     <EditText
         android:id="@+id/tippedBill"
@@ -158,17 +184,9 @@
         android:layout_marginEnd="30dp"
         android:gravity="center"
         android:text=""
-        android:textSize="22sp" />
+        android:textSize="22sp"
+        android:textColor="@color/colorText"
+        />
 
-    <EditText
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="545dp"
-        android:layout_marginEnd="146dp"
-        android:gravity="center"
-        android:text="Hello"
-        android:textSize="32sp" />
 
 </RelativeLayout>
